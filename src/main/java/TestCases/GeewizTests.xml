@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ChromeSuite" thread-count="2" parallel="tests" configfailurepolicy="continue" >
+	<parameter name="browser" value="Chrome" />
+	
+	<listeners>
+    	<listener
+        	class-name="testngListeners.TestNGlisteners">
+    	</listener>
+	</listeners>
+
+	<test name="GeewizTests">
+		<classes>
+			<class name="TestCases.geewizTestCase"></class>
+		</classes>
+	</test>
+</suite>
