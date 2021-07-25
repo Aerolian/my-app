@@ -104,7 +104,7 @@ public class geewizFunctions extends driverSetup{
 			}	
 		}
 		
-		public void checkCartAmount() throws InterruptedException {
+		public void checkCartAmount() throws Exception {
 			//instantiate variables
 			boolean bValueCheck;
 			float iTotal;
@@ -134,8 +134,14 @@ public class geewizFunctions extends driverSetup{
 				bValueCheck = false;
 			}
 			
+			//Logs the result
 			Reporter.log("expected ------------------" + "Greater than 100");
 		    Reporter.log("actual --------------------"+ iTotal);
+		    
+		    //takes a screenshot
+		    uUtilities.takeSnapShot("onTestSuccess"+uUtilities.timereturn()+".png");
+		    
+		    //soft assert on the cart value
 			SoftAssert softassert = new SoftAssert();
 			softassert.assertEquals(bValueCheck, true, "Value is less than 100");
 			System.out.println(iTotal);

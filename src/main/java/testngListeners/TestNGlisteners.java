@@ -35,7 +35,7 @@ public class TestNGlisteners extends driverSetup implements ITestListener
 		System.out.println("****** Test started: " + result.getName());
 		
 		try {
-			uts.takeSnapShot("onTestStart"+uts.timereturn()+".png");
+			//uts.takeSnapShot("onTestStart"+uts.timereturn()+".png");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -48,7 +48,7 @@ public class TestNGlisteners extends driverSetup implements ITestListener
 		// TODO Auto-generated method stub
 		System.out.println("****** Test Success: " + result.getName());
 		try {
-			uts.takeSnapShot("onTestSuccess"+uts.timereturn()+".png");
+			//uts.takeSnapShot("onTestSuccess"+uts.timereturn()+".png");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

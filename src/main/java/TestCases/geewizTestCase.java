@@ -20,7 +20,7 @@ public class geewizTestCase{
 	public void test1() throws Exception {
 		//instantiate variables
 		String sURL = "https://www.geewiz.co.za";
-		String sSearchItem = "headphones";
+		String sSearchItem = "microwave";
 		String sSortBy = "Price, low to high";
 		String sQuantity = "5";
 		
@@ -29,8 +29,8 @@ public class geewizTestCase{
         myWriter.close();
         
 		clGeewizFunctions.createCSVFile(sURL, sSearchItem, sSortBy, sQuantity);
-		clGeewizFunctions.createCSVFile(sURL, "drone", "Name, Z to A", "2");
-		clGeewizFunctions.createCSVFile(sURL, "canon", "Name, A to Z", "9999");
+		clGeewizFunctions.createCSVFile(sURL, "charger", "Name, Z to A", "2");
+		clGeewizFunctions.createCSVFile(sURL, "mirror", "Name, A to Z", "9999");
 		
 		//while the csv file has data, run these test using the data
 		Scanner scanner = new Scanner(new File("MyVariables.csv"));
