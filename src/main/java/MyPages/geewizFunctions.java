@@ -74,7 +74,7 @@ public class geewizFunctions extends driverSetup{
 			//input quantity
 			sfSelenium.populateInputField(By.cssSelector("#quantity_wanted"), pQuantity);
 			driver.findElement(By.cssSelector("#quantity_wanted")).sendKeys(Keys.RETURN);
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			
 			//check if low Stock pop-up is displayed
 			boolean bStock;
@@ -92,13 +92,11 @@ public class geewizFunctions extends driverSetup{
 			else {
 				//click the checkout button
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[2]/form[1]/div[3]/div[1]/div[2]/button[1]")));
+				Thread.sleep(500);
 				driver.findElement(By.xpath("/html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[2]/form[1]/div[3]/div[1]/div[2]/button[1]")).click();
-				
-				//NOTE: Look for a way to use a wait instead of sleep
 
-				//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html[1]/body[1]/div[19]/div[1]/div[1]/div[1]/h4[1]")));
-				Thread.sleep(5000);
-				
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h4[@id='myModalLabel']")));
+								
 				//click Continue shopping button
 				driver.findElement(By.xpath("//button[contains(text(),'Continue shopping')]")).click();
 			}	

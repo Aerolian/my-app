@@ -2,27 +2,18 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onStart.png175144.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onStart.png175144.png' height='200' width='200'/> </a>]]>
+      <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onStart.png181832.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onStart.png181832.png' height='200' width='200'/> </a>]]>
     </line>
     <line>
-      <![CDATA[expected ------------------Greater than 100]]>
-    </line>
-    <line>
-      <![CDATA[actual --------------------585.0]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestSuccess175209.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestSuccess175209.png' height='200' width='200'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure175225.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure175225.png' height='200' width='200'/> </a>]]>
+      <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure181837.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure181837.png' height='200' width='200'/> </a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-07-25T17:51:44 SAST" name="ChromeSuite" finished-at="2021-07-25T17:52:26 SAST" duration-ms="42094">
+  <suite started-at="2021-07-27T18:18:32 SAST" name="ChromeSuite" finished-at="2021-07-27T18:18:37 SAST" duration-ms="5791">
     <groups>
     </groups>
-    <test started-at="2021-07-25T17:51:44 SAST" name="GeewizTests" finished-at="2021-07-25T17:52:26 SAST" duration-ms="42094">
+    <test started-at="2021-07-27T18:18:32 SAST" name="GeewizTests" finished-at="2021-07-27T18:18:37 SAST" duration-ms="5791">
       <class name="TestCases.geewizTestCase">
-        <test-method signature="test1()[pri:0, instance:TestCases.geewizTestCase@4b85880b]" started-at="2021-07-25T17:51:44 SAST" name="test1" finished-at="2021-07-25T17:52:25 SAST" duration-ms="41008" status="FAIL">
+        <test-method signature="test1()[pri:0, instance:TestCases.geewizTestCase@4b85880b]" started-at="2021-07-27T18:18:32 SAST" name="test1" finished-at="2021-07-27T18:18:37 SAST" duration-ms="5369" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]"}
@@ -31,8 +22,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-38EP2BP', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\joshs\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d165471915509aa823db30d554f5dc8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\joshs\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d57b8a67633ab45798b70e19576f5cf4
 *** Element info: {Using=xpath, value=/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]}]]>
             </message>
             <full-stacktrace>
@@ -42,8 +33,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-38EP2BP', ip: '192.168.0.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\joshs\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9d165471915509aa823db30d554f5dc8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\joshs\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d57b8a67633ab45798b70e19576f5cf4
 *** Element info: {Using=xpath, value=/html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/section[1]/section[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -90,16 +81,7 @@ at java.base/java.lang.Thread.run(Unknown Source)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[expected ------------------Greater than 100]]>
-            </line>
-            <line>
-              <![CDATA[actual --------------------585.0]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestSuccess175209.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestSuccess175209.png' height='200' width='200'/> </a>]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure175225.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure175225.png' height='200' width='200'/> </a>]]>
+              <![CDATA[<a href='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure181837.png'> <img src='C:\Users\joshs\git\my-app\target\surefire-reports-20210706135403\images\onTestFailure181837.png' height='200' width='200'/> </a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- test1 -->
